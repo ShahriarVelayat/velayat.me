@@ -1,0 +1,326 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PlushCV - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (11/28/2021)
+%
+% Author:
+% Shubham Mazumder (http://mazumder.me)
+%
+% Hacked together from:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add more icon options 
+% 4. Fix hacky left alignment on contact line
+% 5. Remove Hacky fix for awkward extra vertical space
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the vertical limit.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Icons:
+%%Main: https://icons8.com/icons/carbon-copy
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{plushcv}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Shahriar}{Velayat}{Full Stack Software Engineer}
+{\contactlines
+{\href{https://www.github.com/ShahriarVelayat}{ShahriarVelayat}}
+{\href{https://www.linkedin.com/in/shahriar-velayat/}{shahriar-velayat}}
+{\href{shahriarvelayat@gmail.com}{shahriarvelayat@gmail.com}}
+{\href{tel:+shahriarvelayat@gmail.com}{+989333285099}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.70\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Objective}
+
+I am an accomplished software engineer with a strong background in web application development. Skilled in various aspects of software engineering, I have a demonstrated history of delivering high-quality solutions. With a focus on web application development, I am committed to driving innovation and excellence in software development.
+
+\section{Experience}
+
+\runsubsection{{\href{https://policytek.com/}{Policytek.com}}}
+\descript{| Senior Backend Developer }
+\location{April 2023 – present | Remote , San Diego , U.S.}
+\vspace{\topsep}
+\begin{tightemize}
+\sectionsep
+\item Developing a CRM system to efficiently manage policies and customer leads.
+\item PolicyTek is a CRM used to manage leads from the initial call to selling life insurance to customers.
+\item  Tools \& Technologies : NestJs,MongoDB,Angular,Ionic,Websocket,Docker
+\end{tightemize}
+\sectionsep
+
+\runsubsection{{\href{https://www.netware.studio/}{Netware Studio}}}
+\descript{| Senior Backend Developer}
+\location{June 2021 – Current | Tehran, Iran}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\sectionsep
+\item Developing an app to assist customers in managing their health and fitness. \href{https://sira.fit} Sira.fit 
+\item Developing a IoT framework to manage industrial and home use gadgets.  \href{https://www.ovio.ir}{Ovio.ir} 
+\item Developing a flight booking system   \href{https://mysafar.com}{Mysafar.com} 
+\item  Tools \& Technologies : NestJs,MongoDB,Angular,Ionic,Websocket,Docker
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{Palapal Pardaz Fars | Appsaz.ir}
+\descript{| Full Stack Developer }
+\location{Sep 2018 – March 2021 | Shiraz, Iran  }
+\begin{tightemize}
+\sectionsep
+\item Developing custom mobile applications for businesses, handling both the front-end and back-end aspects.
+\item Develope and Build Android & IOS Applications
+\item Design and Develop REST API
+\item  Tools \& Technologies :
+     Ionic Framework,MySql,Angular,Wordpress,Php,Redmine Project Manager,Android Studio
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Aruniq |}
+\descript{| Augmented reality Researcher }
+\location{Apr 2017 – Feb 2018 | Shiraz, Iran  }
+\begin{tightemize}
+\sectionsep
+\item Specializing in researching and developing Augmented Reality applications for both web and mobile platforms.
+\item Developing a mobile application for the Fars Consumer Rights Support Organization, leveraging Marker-Less Augmented Reality technology.
+\item  Tools \& Technologies : Apache Cordova - Android - ARToolkit - Unity
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{EvoTeam |}
+\descript{| Android Developer}
+\location{Oct 2016 – May 2017 | Shiraz, Iran  }
+\begin{tightemize}
+\sectionsep
+\item Developing a Mobile Application for Shiraz University to collect traffic data.
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{XCollision}
+\descript{| Mobile game}
+\location{2018 - 2021}
+\begin{tightemize}
+\item Designing and developing APIs specifically tailored for managing mobile games
+\item  Tools \& Technologies :MySql,Wordpress,Php,Redmine Project Manager
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Awards} 
+% \begin{tabular}{rll}
+% 2020	     & Finalist & Lorem Ipsum\\
+% 2018	     & $2^{nd}$ & Dolor Sit Amet\\
+% 2015	     & Finalist  & Cras posuere\\
+% \\
+% \end{tabular}
+% \sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.25\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\sectionsep
+\location{Proficient:}
+ TypeScript \textbullet{} JavaScript  
+  \textbullet{} MongoDb  
+\sectionsep
+\location
+\location{Experienced:}
+Java   \\
+\sectionsep
+\location{Familiar:}
+ Python \textbullet{}  Shell  \\
+\sectionsep
+\sectionsep
+\subsection{Libraries/Frameworks}
+\sectionsep
+Ionic Framework \textbullet{} Node.js \textbullet{} NestJs \textbullet{} ExpressJs \textbullet{} Angular \textbullet{} Android Development \\
+\sectionsep
+\sectionsep
+\subsection{Tools/Platforms}
+\sectionsep
+Git \textbullet{} Gitlab \textbullet{} GitLab\-CI/CD     \\ Wordpress \textbullet{} Docker \textbullet{} Linux  \textbullet{} Kubernetes    \textbullet{} Ansible
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsection{Shiraz University of Technology}
+\descript{Master's  Degree  Information Technology }
+\location{2018 - 2022 }
+
+\sectionsep
+\subsection{Shiraz University of Technology}
+\descript{Bachelor of Information Technology }{Shiraz University of Technology }
+\location{2014 - 2018 }
+\sectionsep
+\
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     REFERENCES
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\location{Engaged with the Shiraz Developers Community.}
+\section{}
+\sectionsep
+\location{Leading introductory Android training courses as an instructor.}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Coursework}
+
+% \subsection{Graduate}
+% Graduate Algorithms \textbullet{}\\ 
+% Advanced Computer Architecture \textbullet{}\\ 
+% Operating Systems \textbullet{}\\ 
+% Artificial Intelligence \textbullet{}\\
+% Visualization For Scientific Data \\
+% \sectionsep
+
+% \subsection{Undergraduate}
+
+% Database Management Systems \textbullet{}\\
+% Object Oriented Analysis and Design \textbullet{}\\
+% Artificial Intelligence and Expert Systems \textbullet{}\\
+% Scripting Languages and Web Tech \textbullet{}\\
+% Software Engineering \\
+
+\end{minipage} 
+
+
+\begin{minipage}[t]{0.70\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Certification}
+
+\runsubsection{DevOps Engineering Bootcamp}
+{{\href{https://rahnemacollege.com/}{Rahnema College}}}
+\location{Feb 2022 | Tehran, Iran}
+\vspace{\topsep}
+\begin{tightemize}
+\sectionsep
+\item ID : shahriarvelayatLVEh2HqG
+\end{tightemize}
+
+\sectionsep
+\runsubsection{Java Development}
+{South industrial management institute}
+\location{Apr 2016 | Tehran, Iran}
+\vspace{\topsep}
+\begin{tightemize}
+\item ID :  2721-9276-1651-1236
+\end{tightemize}
+\sectionsep
+
+\sectionsep
+\runsubsection{Android Development}
+{South industrial management institute}
+\location{Apr 2016 | Tehran, Iran}
+\vspace{\topsep}
+\begin{tightemize}
+\item ID :  2721-9276-1651-1236
+\end{tightemize}
+\sectionsep
+
+
+\sectionsep
+\runsubsection{LPIC 1}
+{Shiraz University of technology}
+\location{Apr 2014 | Shiraz, Iran}
+\vspace{\topsep}
+\begin{tightemize}
+\item ID :  10940
+\end{tightemize}
+\sectionsep
+
+
+\sectionsep
+\runsubsection{Certified Cisco Network Associate ICND1+ICND2}
+{Kahkeshan  Nour}
+\location{Apr 2015 | Tehran, Iran}
+\vspace{\topsep}
+\begin{tightemize}
+\item ID :  KN15-CS142233
+\end{tightemize}
+\sectionsep
+
+\sectionsep
+\runsubsection{Network+}
+{Kahkeshan  Nour}
+\location{Apr 2015 | Tehran, Iran}
+\vspace{\topsep}
+\begin{tightemize}
+\item ID :  KN15-CA542235
+\end{tightemize}
+\sectionsep
+
+\end{minipage} 
+
+\end{document}  
+
+
+
